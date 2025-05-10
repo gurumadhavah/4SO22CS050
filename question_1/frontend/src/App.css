@@ -1,0 +1,90 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+
+.types {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.types button {
+  background-color: #61dafb;
+  color: #282c34;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.types button:hover {
+  background-color: #21a1f1;
+}
+
+.types button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.results {
+  display: grid;
+  gap: 20px;
+  text-align: left;
+}
+
+.result-section {
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-section h3 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.result-section pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  max-height: 200px;
+  overflow-y:scroll;
+}
+
+.average-display {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin: 15px 0;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: #ffebeb;
+  border-radius: 4px;
+}
